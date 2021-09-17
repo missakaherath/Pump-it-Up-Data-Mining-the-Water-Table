@@ -19,13 +19,13 @@ This helps to reduce the amount of dummy columns while maintaining the informati
 
 * The same approach was applied to 'installer', 'scheme_management' and 'construction_year' columns.
 
-* since there are a lot of unique values and top valued columns don't cover a majority of them, 'subvillage', 'scheme_name', 'wpt_name' columns were dropped.
+* Since there are a lot of unique values and top valued columns don't cover a majority of them, 'subvillage', 'scheme_name', 'wpt_name' columns were dropped.
 
 * Data in the columns with categorical, string valued data were converted to lower case to keep consistency in data.
 
 * 'date_recorded' column was changed to represent the number of days ('days_since_recorded') since the most recently recorded datetime, as more recently recorded pumps might be more likely to be functional.
 
-* since basin, lga, ward and region contain geographical information which is unlikely to be useful to the model, they will be removed
+* Since basin, lga, ward and region contain geographical information which is unlikely to be useful to the model, they will be removed
 
 * extraction_type, extraction_type_group and extraction_type_class contains similar information. therefore 'extraction_type', 'extraction_type_group' columns were removed.
 
@@ -47,7 +47,7 @@ This helps to reduce the amount of dummy columns while maintaining the informati
 
 * construction_year column was converted to a column with categorical data.
 
-* standard normalization was applied to 'gps_height', 'amount_tsh' and 'population' columns.
+* Standard normalization was applied to 'gps_height', 'amount_tsh' and 'population' columns.
 
 * String valued columns were encoded using one hot encoding.
 
