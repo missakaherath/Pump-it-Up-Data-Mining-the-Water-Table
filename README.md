@@ -2,11 +2,11 @@
 
 Repository: https://github.com/missakaherath/Pump-it-Up-Data-Mining-the-Water-Table.git
 
-Notebook: https://colab.research.google.com/drive/1IwxOV-lKUlGDVbIr5SuHnGzIdSs-r5wb#scrollTo=Eb6uQV-VS9vX
+Notebook: [notebook.ipynb](https://colab.research.google.com/drive/1IwxOV-lKUlGDVbIr5SuHnGzIdSs-r5wb#scrollTo=Eb6uQV-VS9vX)
 
 Used models: RandomForest, XGBoost
 
-Competition Link: https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
+Competition Link: [Competition](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/)
 
 ##
 
