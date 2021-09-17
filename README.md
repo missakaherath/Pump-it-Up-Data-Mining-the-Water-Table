@@ -8,7 +8,7 @@ Used models: RandomForest, XGBoost
 
 Competition Link: https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
 
-
+##
 
 * Columns funder, installer, subvillage, public_meeting, scheme_management, scheme_name and permit were contained missing values. those were filled using a constant value 'Unknown'.
 
